@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+     width: 575px; 
+    height: 385px;
+    top: -1135px;
+    left: -1996px;
+    gap: 0px;
+    opacity: 0px;
+    margin: auto;
+    background: #1B244A;
+}
+.teamName{
+    width: 149px;
+    height: 36px;
+    top: 68px;
+    gap: 0px;
+    opacity: 0px;
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+}
+#home{
+    left: 85px;
+}
+#guest{
+    left: 340px;
+}
+.scoreContainer{
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #080001;
+}
+.points{
+    width: 117px;
+    height: 120px;
+    top: 125px;
+    left: 100px;
+    gap: 0px;
+    margin: auto;
+    opacity: 0px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-align: center;
+    color: #F94F6D;
+}
+.incrementContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;
+    top: 271px;
+    left: 82px;
+    gap: 0px;
+    opacity: 0px;
+    /* color: #9AABD8; */
+}
+.plusBox{
+    width: 45px;
+    height: 45px;
+    top: 271px;
+    left: 82px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #9AABD8;
+    background-color: #1B244A;
+}
+.plusText{
+    width: 30px;
+    height: 25.77px;
+    top: 280px;
+    left: 89px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.81px;
+    text-align: center;
+    color: #9AABD8;
+;
+}
